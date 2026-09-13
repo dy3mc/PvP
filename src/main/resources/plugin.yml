@@ -1,0 +1,16 @@
+name: UltimatePvP
+version: '$version'
+
+main: io.github.dy3mc.ultimatePvP.UltimatePvP
+api-version: '1.21.1'
+load: POSTWORLD
+commands:
+  pvp:
+    description: PvPゲーム
+
+  ability:
+    description: 自分の能力を確認
+
+  dev:
+    description: 開発者コマンド
+    permission: ultimatepvp.dev
